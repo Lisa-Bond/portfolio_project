@@ -81,4 +81,26 @@ p {
   .hero {
     padding: 80px 20px;
   }
+  .about-hero {
+    text-align: center;
+    padding: 0;
+  }
+}
+.lisa {
+  max-width: 450px;
+  border-radius: 10px;
+}
+.about-hero h1 {
+  font-size: 44px;
+  line-height: 50px;
+}
+.about-hero h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.about-hero {
+  padding: 160px 20px;
+}
+.about-hero-content {
+  margin: 30px;
 }
