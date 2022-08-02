@@ -17,7 +17,7 @@ h6 {
   font-weight: bold;
 }
 h1 {
-  font-size: 96px;
+  font-size: 72px;
   line-height: 1.75;
 }
 h2 {
@@ -149,5 +149,20 @@ nav a {
 }
 nav a:hover,
 nav li.active a {
+  color: var(--branding-color);
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer {
+  margin: 60px 0;
+}
+footer .social-links {
+  margin: 0 20px;
   color: var(--branding-color);
 }
